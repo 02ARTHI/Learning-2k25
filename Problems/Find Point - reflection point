@@ -24,6 +24,7 @@ public class Main
         int r1=q1+(q1-p1);
         int r2=q2+(q2-p2);
         System.out.println(r1+" "+r2);
+
     }
 }
 
