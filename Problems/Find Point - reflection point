@@ -1,14 +1,10 @@
 rx=qx+(qx-px);
 
 ry=qy+(qy-py);
-
 you should use this logic to find the reflection of point px,py about qx,qy
-
 use pen and paper to find out how this works by making diagrams, that'll help you understand
 diagram - https://imgur.com/a/dZSkEOw
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 /* package codechef; // don't place package name! */
 import java.util.*;
 import java.lang.*;
@@ -18,9 +14,7 @@ import java.io.*;
 public class Main
 {
     public static void main (String[] args) throws java.lang.Exception
-    {
-        // your code goes here
-        
+    {        // your code goes here        
         Scanner sc = new Scanner(System.in);
         int p1=sc.nextInt();
         int p2=sc.nextInt();
@@ -29,7 +23,6 @@ public class Main
         
         int r1=q1+(q1-p1);
         int r2=q2+(q2-p2);
-        
         System.out.println(r1+" "+r2);
     }
 }
