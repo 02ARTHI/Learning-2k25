@@ -5,6 +5,7 @@ you should use this logic to find the reflection of point px,py about qx,qy
 use pen and paper to find out how this works by making diagrams, that'll help you understand
 diagram - https://imgur.com/a/dZSkEOw
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 /* package codechef; // don't place package name! */
 import java.util.*;
 import java.lang.*;
