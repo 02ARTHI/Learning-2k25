@@ -1,1 +1,26 @@
+input - 4 6
+output - 12
 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+      Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
+         int m= sc.nextInt();
+         int result =0;
+         int min=n>m?m:n;
+         for(int i=min;i<=m*n;i++)
+         {
+           if((i%n==0) && (i%m==0))
+           {
+             result=i;
+             break;
+           }
+         }
+          System.out.println(result);
+         
+  }
+}
