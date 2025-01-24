@@ -18,3 +18,6 @@ public class Main {
          
   }
 }
+
+input - 6 14
+output - 2
