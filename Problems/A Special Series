@@ -1,0 +1,38 @@
+we are given a serie:
+1, 11, 111, 1111, 11111........
+
+
+
+write a program to print the sum of the series till nth term
+
+
+
+Example:
+
+if n = 5
+
+sum = 1 + 11 + 111 + 1111 + 11111 = 12345
+
+
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+      Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
+        int result=0;
+         long sum=0;
+        for(int i=1;i<=n;i++)
+        {
+         result=result*10+1;
+         System.out.println(result);
+         sum+=result;
+        }
+          System.out.println(sum);
+         
+  }
+}
+
+
