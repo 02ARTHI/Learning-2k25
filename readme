@@ -30,7 +30,6 @@ stream API
  - Java Memory Model
  - Garbage collection
 
-
 2. Multithreading & Concurrency
 - Thread synchronization, Executors, Locks
 - Fork/Join framework
