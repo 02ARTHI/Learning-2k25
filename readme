@@ -150,6 +150,7 @@ stream API
 𝐓𝐨𝐩𝐢𝐜 𝟓: 𝐒𝐩𝐫𝐢𝐧𝐠/𝐇𝐢𝐛𝐞𝐫𝐧𝐚𝐭𝐞 𝐝𝐚𝐭𝐚 𝐉𝐏𝐀/𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 (𝐒𝐐𝐋 𝐨𝐫 𝐍𝐨𝐒𝐐𝐋)
  - JPA Repositories
  - finder methods
+ - custom query
  - Relationship with Entities
  - SQL queries on Employee department
  - Queries, Highest Nth salary queries 
