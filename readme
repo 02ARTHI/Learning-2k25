@@ -35,8 +35,8 @@ web client
  - Collection Framework
  - Exception Handling
  - Multithreading
- - Java Memory Model
- - Garbage collection
+ - Java Memory Model 
+ - Garbage collection 
 
 2. Multithreading & Concurrency
 - Thread synchronization, Executors, Locks
