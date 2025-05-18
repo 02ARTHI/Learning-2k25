@@ -1,8 +1,9 @@
 package Streams.sunday;
 
 import java.util.HashMap;
+import java.util.Map;
 
-public class HashMapStream {
+public class HashMapEXample {
 
 	public static void main(String[] args) {
 		HashMap<String, Integer> hm = new HashMap<String,Integer>();
@@ -12,9 +13,9 @@ public class HashMapStream {
 		hm.put("D Pari", 123);
 		
 		hm
-		.keySet()
+		.entrySet()
 		.stream()
-		.sorted()  //Sorting Based on Key: Alphabetical Order
+		.sorted(Map.Entry.comparingByKey())
 		.forEach(System.out::println);
 	}
 
