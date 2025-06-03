@@ -10,6 +10,9 @@ public class StringExample {
  
 	public static void main(String[] args) {
 	List<String> names = Arrays.asList("John", "Alice", "Bob", "Jane");
+	
+	names.stream().map(e-> new StringBuilder(e).reverse()).forEach(System.out::println);
+	
 	Map<Integer, List<String>> groupedByLength = names
 	                          .stream()
 	                          .collect(Collectors.groupingBy(String::length));
