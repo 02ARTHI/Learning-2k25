@@ -1,8 +1,9 @@
-package stream.problems;
+package KodeWala.Interview.questions;
 
 public class Employee {
 
 	private String name;
+	private String depart;
 	private int expid, exp, salary;
 	public String getName() {
 		return name;
@@ -28,21 +29,33 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	public Employee(String name, int expid, int exp, int salary) {
-		super();
-		this.name = name;
-		this.expid = expid;
-		this.exp = exp;
-		this.salary = salary;
+	
+	
+	
+	public String getDepart() {
+		return depart;
+	}
+	public void setDepart(String depart) {
+		this.depart = depart;
 	}
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	public Employee(String name, String depart, int expid, int exp, int salary) {
+		super();
+		this.name = name;
+		this.depart = depart;
+		this.expid = expid;
+		this.exp = exp;
+		this.salary = salary;
+	}
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", expid=" + expid + ", exp=" + exp + ", salary=" + salary + "]";
+		return "Employee [name=" + name + ", depart=" + depart + ", expid=" + expid + ", exp=" + exp + ", salary="
+				+ salary + "]";
 	}
+	
 	
 	
 }
