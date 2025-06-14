@@ -14,6 +14,8 @@ public class LongestString {
 
 		String s = names.stream().max(Comparator.comparingInt(String::length)).orElse("nothing"); // second approach
 		System.out.println(s);
+		int n=4;
+		names.stream().filter(e->e.replaceAll("[^aeiouAEIOU]", "").length()==n).forEach(System.out::println);
 
 	}
 

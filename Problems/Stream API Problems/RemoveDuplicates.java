@@ -1,7 +1,9 @@
 package KodeWala.Interview.questions;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class RemoveDuplicates {
 
@@ -10,6 +12,11 @@ public class RemoveDuplicates {
 
 		List n = s.stream().distinct().toList();
 		System.out.println(n);
+		
+		int[] a= new int[]{1, 4, 5,1};
+		Set<Integer> seen = new HashSet<>();
+		boolean match = Arrays.stream(a).anyMatch(e -> !seen.add(e));
+		System.out.println(match);
 	}
 
 }
