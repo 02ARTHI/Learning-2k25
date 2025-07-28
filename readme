@@ -15,7 +15,7 @@ spring banner
 spring actuators
 spring HATEOAS
 swagger UI  
-spring data rest
+spring data rest 
 rest template   
 web client
   
